@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-/home/chinmay/webuildlive/scripts/startDarkice.sh &
-/home/chinmay/webuildlive/scripts/startMumble.sh
+~/webuildlive/scripts/startDarkice.sh &
+~/webuildlive/scripts/startMumble.sh
