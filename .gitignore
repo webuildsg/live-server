@@ -1,0 +1,10 @@
+## Audio files
+*.mp3
+*.ogg
+
+## Stats files
+
+scripts/node_modules
+stats/*.xml
+stats/*.json
+playlist/playlist*

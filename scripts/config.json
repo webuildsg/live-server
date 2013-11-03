@@ -1,0 +1,12 @@
+{
+	"url":"http://localhost:8000/admin/stats",
+	"uid": "chinpen",
+	"password":"lamepassword",
+	"streams": [
+	"live",
+	"live-ogg",
+	"radio",
+	"radio-ogg"
+	],
+	"outputfilepath":"~/webuildlive/stats/stats.json"
+}
