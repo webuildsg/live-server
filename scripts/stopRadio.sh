@@ -1,18 +1,18 @@
 #!/bin/bash
 
 # kill ices
-sudo pkill -x ices;
+# sudo pkill -x ices;
 
-sleep 1;
+# sleep 1;
 
-islive=`curl -su uid:lamepassword http://localhost:8000/admin/listmounts | 
-grep "\/radio-ogg"`
+# islive=`curl -su uid:lamepassword http://localhost:8000/admin/listmounts | 
+# grep "\/radio-ogg"`
 
-if [ -z "$islive" ]; then
-  echo "Stopped";
-else
-  echo "Ooops still running";
-fi
+# if [ -z "$islive" ]; then
+#  echo "Stopped";
+# else
+#  echo "Ooops still running";
+# fi
 
 
 

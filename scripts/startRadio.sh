@@ -28,20 +28,20 @@ fi
 
 
 # kill ices if it's running
-sudo pkill -x ices;
+# sudo pkill -x ices;
 
 # refresh playlist
-ls ~/webuildlive/playlist/*.ogg > ~/webuildlive/playlist/playlist.txt
+# ls ~/webuildlive/playlist/*.ogg > ~/webuildlive/playlist/playlist.txt
 
 # restart ices
-echo "Starting Ices2 for OGG Radio....."
-sudo ices ~/webuildlive/config/icesplaylist.xml
+# echo "Starting Ices2 for OGG Radio....."
+# sudo ices ~/webuildlive/config/icesplaylist.xml
 
-islive=`curl -su uid:lamepasswords http://localhost:8000/admin/listmounts |
-grep "\/radio-ogg"`
+# islive=`curl -su uid:lamepasswords http://localhost:8000/admin/listmounts |
+# grep "\/radio-ogg"`
 
-if [ -n "$islive" ]; then
-  echo "Success!";
-else
-  echo "Couldn't Start OGG Radio";
-fi
+# if [ -n "$islive" ]; then
+#  echo "Success!";
+# else
+#  echo "Couldn't Start OGG Radio";
+# fi
