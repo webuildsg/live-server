@@ -32,7 +32,7 @@
         <input>
             <module>playlist</module>
             <param name="type">basic</param>
-            <param name="file">~/webuildlive/playlist/playlist.txt</param>
+            <param name="file">/home/chinmay/webuildlive/playlist/playlist.txt</param>
             <!-- random play -->
             <param name="random">1</param>
             <!-- if the playlist get updated that start at the beginning -->

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mp3filelist=`ls -S ~/webuildlive/playlist/*.mp3`;
+mp3filelist=`ls -S /home/chinmay/webuildlive/playlist/*.mp3`;
 
 echo #mp3filelist
 
@@ -16,4 +16,4 @@ for name in $mp3filelist; do
 done;
 
 echo "Updating Playlist";
-ls ~/webuildlive/playlist/*.ogg > ~/webuildlive/playlist/playlist.txt
+ls /home/chinmay/webuildlive/playlist/*.ogg > /home/chinmay/webuildlive/playlist/playlist.txt

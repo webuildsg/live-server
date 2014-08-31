@@ -1,6 +1,6 @@
 #!/bin/bash
 
-oggfilelist=`ls -S ~/webuildlive/playlist/*.ogg`;
+oggfilelist=`ls -S /home/chinmay/webuildlive/playlist/*.ogg`;
 
 for name in $oggfilelist; do
    mp3name="${name/.ogg/.mp3}";
@@ -14,4 +14,4 @@ for name in $oggfilelist; do
 done;
 
 echo "Updating Playlist";
-ls ~/webuildlive/playlist/*.mp3 > ~/webuildlive/playlist/playlistmp3.txt
+ls /home/chinmay/webuildlive/playlist/*.mp3 > /home/chinmay/webuildlive/playlist/playlistmp3.txt
